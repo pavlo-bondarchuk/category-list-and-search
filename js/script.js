@@ -1,5 +1,7 @@
-$('#search').hideseek({
-  nodata: 'No results found'
+$("#search").hideseek({
+ nodata: "No results found",
+ highlight: true,
+ navigation: true
 });
 $('[href="#"]').click(function(e) {
   e.preventDefault();
