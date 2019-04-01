@@ -1,2 +1,2 @@
 # category-list-and-search
-category list with realtime search
+Category posts list with realtime search
