@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+
+    <title>Category posts list and search</title>
+  </head>
+  <body>
+   <br>
+<div class="container">
+ <div class="row">
+  <div class="col-md-4"></div>
+  <div class="col-md-8"><input id="search" name="search-highlight" placeholder="start type search here..." type="text" data-list=".article-list" autocomplete="off"></div>
+ </div>
+ <div class="row">
+  <div class="col-md-4">
+   <ul class="filter">
+    <li class="active"><a href="#" data-filter="*">All</a></li>
+    <li><a href="#" data-filter=".alumi">Alumni Networking / Mentor Systems</a></li>
+    <li><a href="#" data-filter=".career">Career Services Management Systems</a></li>
+   </ul>
+  </div>
+  <div class="col-md-8">
+   <div class="row article-list">
+    <div class="col-md-6 article-item career">
+     <div class="article"><img src="https://via.placeholder.com/150x40?text=LOGO" alt="">
+      <h2 class="article_heading">First title</h2>
+      <p class="article_category">Career Services Management Systems</p>
+      <p class="text">Import career advice and employer insights to help students explore.</p>
+      <a href="#">read more...</a>
+     </div>
+    </div>
+    <div class="col-md-6 article-item career">
+     <div class="article"><img src="https://via.placeholder.com/150x40?text=LOGO" alt="">
+      <h2 class="article_heading">Second title</h2>
+      <p class="article_category">Category: Alumni Networking / Mentor Systems</p>
+      <p class="article_text">Career Services Management Systems</p>
+      <a class="article_link" href="#">read more...</a>
+     </div>
+    </div>
+    <div class="col-md-6 article-item alumi">
+     <div class="article"><img src="https://via.placeholder.com/150x40?text=LOGO" alt="">
+      <h2 class="article_heading">Third title</h2>
+      <p class="article_category">Category: Alumni Networking / Mentor Systems</p>
+      <p class="article_text">Import career advice and employer insights to help students explore.</p>
+      <a class="article_link" href="#">read more...</a>
+     </div>
+    </div>
+    <div class="col-md-6 article-item alumi">
+     <div class="article"><img src="https://via.placeholder.com/150x40?text=LOGO" alt="">
+      <h2 class="article_heading">Fourth title</h2>
+      <p class="article_category">Category: Alumni Networking / Mentor Systems</p>
+      <p class="article_text">Import career advice and employer insights to help students explore.</p>
+      <a class="article_link" href="#">read more...</a>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+
+    <!-- Optional JavaScript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.hideseek.min.js"></script>
+	<script src="js/script.js"></script>
+  </body>
+</html>
